@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E0D5800A159C3ABD7EE32EA032D5B5B6"
-               BuildableName = "Pods_AngelHack_19.framework"
-               BlueprintName = "Pods-AngelHack-19"
+               BlueprintIdentifier = "D0FF6637FE7426EA5654A4807DC6E8F6"
+               BuildableName = "CameraBackground.bundle"
+               BlueprintName = "CameraBackground-CameraBackground"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E0D5800A159C3ABD7EE32EA032D5B5B6"
-            BuildableName = "Pods_AngelHack_19.framework"
-            BlueprintName = "Pods-AngelHack-19"
+            BlueprintIdentifier = "D0FF6637FE7426EA5654A4807DC6E8F6"
+            BuildableName = "CameraBackground.bundle"
+            BlueprintName = "CameraBackground-CameraBackground"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

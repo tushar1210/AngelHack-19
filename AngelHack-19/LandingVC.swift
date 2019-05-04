@@ -21,9 +21,6 @@ class LandingVC: UIViewController {
     }
     
     func setup(){
-        bottomView.isFloatingButtonHidden = false
-        bottomView.setFloatingButtonPosition(<#T##floatingButtonPosition: MDCBottomAppBarFloatingButtonPosition##MDCBottomAppBarFloatingButtonPosition#>, animated: <#T##Bool#>)
     }
-    
 
 }
