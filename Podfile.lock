@@ -60,54 +60,6 @@ PODS:
   - GoogleUtilities/UserDefaults (5.5.0):
     - GoogleUtilities/Logger
   - leveldb-library (1.20)
-  - MaterialComponents/BottomAppBar (81.0.0):
-    - MaterialComponents/Buttons
-    - MaterialComponents/NavigationBar
-    - MaterialComponents/private/Math
-    - MDFInternationalization
-  - "MaterialComponents/BottomAppBar+ColorThemer (81.0.0)":
-    - MaterialComponents/BottomAppBar
-    - MaterialComponents/Themes
-  - MaterialComponents/ButtonBar (81.0.0):
-    - MaterialComponents/Buttons
-    - MaterialComponents/private/Application
-    - MDFInternationalization
-  - MaterialComponents/Buttons (81.0.0):
-    - MaterialComponents/Ink
-    - MaterialComponents/private/Math
-    - MaterialComponents/ShadowElevations
-    - MaterialComponents/ShadowLayer
-    - MaterialComponents/Shapes
-    - MaterialComponents/Typography
-    - MDFInternationalization
-    - MDFTextAccessibility
-  - MaterialComponents/Ink (81.0.0):
-    - MaterialComponents/private/Math
-  - MaterialComponents/NavigationBar (81.0.0):
-    - MaterialComponents/ButtonBar
-    - MaterialComponents/private/Math
-    - MaterialComponents/Typography
-    - MDFInternationalization
-    - MDFTextAccessibility
-  - MaterialComponents/private/Application (81.0.0)
-  - MaterialComponents/private/Math (81.0.0)
-  - MaterialComponents/schemes/Color (81.0.0)
-  - MaterialComponents/schemes/Typography (81.0.0):
-    - MaterialComponents/Typography
-  - MaterialComponents/ShadowElevations (81.0.0)
-  - MaterialComponents/ShadowLayer (81.0.0):
-    - MaterialComponents/ShadowElevations
-  - MaterialComponents/Shapes (81.0.0):
-    - MaterialComponents/private/Math
-    - MaterialComponents/ShadowLayer
-  - MaterialComponents/Themes (81.0.0):
-    - MaterialComponents/schemes/Color
-    - MaterialComponents/schemes/Typography
-  - MaterialComponents/Typography (81.0.0):
-    - MaterialComponents/private/Application
-    - MaterialComponents/private/Math
-  - MDFInternationalization (2.0.0)
-  - MDFTextAccessibility (2.0.0)
   - MiniLayout (1.4.0)
   - MultiToggleButton (1.8.0)
   - nanopb (0.3.901):
@@ -121,7 +73,6 @@ DEPENDENCIES:
   - CameraBackground
   - Firebase/Core
   - Firebase/Database
-  - "MaterialComponents/BottomAppBar+ColorThemer"
   - SwiftyJSON
 
 SPEC REPOS:
@@ -136,9 +87,6 @@ SPEC REPOS:
     - GoogleAppMeasurement
     - GoogleUtilities
     - leveldb-library
-    - MaterialComponents
-    - MDFInternationalization
-    - MDFTextAccessibility
     - MiniLayout
     - MultiToggleButton
     - nanopb
@@ -155,14 +103,11 @@ SPEC CHECKSUMS:
   GoogleAppMeasurement: 1624046ab1bcc5e170061a56ef5679000b079c8e
   GoogleUtilities: 6481e6318c5fcabaaa8513ef8120f329055d7c10
   leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
-  MaterialComponents: 9ef60e1abd89463ac018ca6d354be41fd5df059a
-  MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
-  MDFTextAccessibility: 85c09a1bd9c321f494348e632a25063bcda35a53
   MiniLayout: e35331ce9ab50a4111c3f91deca158834f86d9e7
   MultiToggleButton: eca1625dab98b028e878c18c624eee05cac83c96
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
   SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
 
-PODFILE CHECKSUM: dd309fcf126e577e1a2cb7b2bba60dedb3343ec8
+PODFILE CHECKSUM: f34af6e11627828909b48e2823623e95e4dd6df4
 
 COCOAPODS: 1.6.1

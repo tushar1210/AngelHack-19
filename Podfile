@@ -10,7 +10,6 @@ target 'AngelHack-19' do
 pod 'Firebase/Core'
 pod 'Firebase/Database'
 pod 'SwiftyJSON'
-pod 'MaterialComponents/BottomAppBar+ColorThemer'
 pod 'CameraBackground'
 
 end
