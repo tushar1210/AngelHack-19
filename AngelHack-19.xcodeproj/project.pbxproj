@@ -12,9 +12,12 @@
 		78479E8A227D5D3F004C4D1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78479E88227D5D3F004C4D1F /* Main.storyboard */; };
 		78479E8C227D5D40004C4D1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78479E8B227D5D40004C4D1F /* Assets.xcassets */; };
 		78479E8F227D5D40004C4D1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78479E8D227D5D40004C4D1F /* LaunchScreen.storyboard */; };
+		C94B6DDD5C1EFE5CD0ACB821 /* Pods_AngelHack_19.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E03F2D98EC563D3E80D4DB9 /* Pods_AngelHack_19.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		42B436271475C955D8BF5533 /* Pods-AngelHack-19.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AngelHack-19.debug.xcconfig"; path = "Target Support Files/Pods-AngelHack-19/Pods-AngelHack-19.debug.xcconfig"; sourceTree = "<group>"; };
+		4A400671394D538B9B126E30 /* Pods-AngelHack-19.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AngelHack-19.release.xcconfig"; path = "Target Support Files/Pods-AngelHack-19/Pods-AngelHack-19.release.xcconfig"; sourceTree = "<group>"; };
 		78479E81227D5D3F004C4D1F /* AngelHack-19.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AngelHack-19.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78479E84227D5D3F004C4D1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78479E86227D5D3F004C4D1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		78479E8B227D5D40004C4D1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78479E8E227D5D40004C4D1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78479E90227D5D40004C4D1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E03F2D98EC563D3E80D4DB9 /* Pods_AngelHack_19.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AngelHack_19.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C94B6DDD5C1EFE5CD0ACB821 /* Pods_AngelHack_19.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05A412CE351682C723E0B72B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E03F2D98EC563D3E80D4DB9 /* Pods_AngelHack_19.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		78479E78227D5D3E004C4D1F = {
 			isa = PBXGroup;
 			children = (
 				78479E83227D5D3F004C4D1F /* AngelHack-19 */,
 				78479E82227D5D3F004C4D1F /* Products */,
+				C62D5084F2E7990FB6B9242E /* Pods */,
+				05A412CE351682C723E0B72B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +79,16 @@
 			path = "AngelHack-19";
 			sourceTree = "<group>";
 		};
+		C62D5084F2E7990FB6B9242E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42B436271475C955D8BF5533 /* Pods-AngelHack-19.debug.xcconfig */,
+				4A400671394D538B9B126E30 /* Pods-AngelHack-19.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +96,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 78479E93227D5D40004C4D1F /* Build configuration list for PBXNativeTarget "AngelHack-19" */;
 			buildPhases = (
+				A02DE1DDF2ECF0A987CC7F82 /* [CP] Check Pods Manifest.lock */,
 				78479E7D227D5D3F004C4D1F /* Sources */,
 				78479E7E227D5D3F004C4D1F /* Frameworks */,
 				78479E7F227D5D3F004C4D1F /* Resources */,
+				69353D0A6EF17B43EF449EAA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,6 +156,65 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		69353D0A6EF17B43EF449EAA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AngelHack-19/Pods-AngelHack-19-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFTextAccessibility/MDFTextAccessibility.framework",
+				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFInternationalization.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFTextAccessibility.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AngelHack-19/Pods-AngelHack-19-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A02DE1DDF2ECF0A987CC7F82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AngelHack-19-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		78479E7D227D5D3F004C4D1F /* Sources */ = {
@@ -280,6 +366,7 @@
 		};
 		78479E94227D5D40004C4D1F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42B436271475C955D8BF5533 /* Pods-AngelHack-19.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +385,7 @@
 		};
 		78479E95227D5D40004C4D1F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A400671394D538B9B126E30 /* Pods-AngelHack-19.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
