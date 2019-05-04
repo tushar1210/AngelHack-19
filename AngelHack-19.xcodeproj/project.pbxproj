@@ -8,10 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		78479E85227D5D3F004C4D1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78479E84227D5D3F004C4D1F /* AppDelegate.swift */; };
-		78479E87227D5D3F004C4D1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78479E86227D5D3F004C4D1F /* ViewController.swift */; };
 		78479E8A227D5D3F004C4D1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78479E88227D5D3F004C4D1F /* Main.storyboard */; };
 		78479E8C227D5D40004C4D1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78479E8B227D5D40004C4D1F /* Assets.xcassets */; };
 		78479E8F227D5D40004C4D1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78479E8D227D5D40004C4D1F /* LaunchScreen.storyboard */; };
+		78479E97227D73F7004C4D1F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 78479E96227D73F7004C4D1F /* GoogleService-Info.plist */; };
+		78479E99227D756E004C4D1F /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78479E98227D756E004C4D1F /* LoginVC.swift */; };
+		78479E9B227D7C94004C4D1F /* LandingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78479E9A227D7C94004C4D1F /* LandingVC.swift */; };
 		C94B6DDD5C1EFE5CD0ACB821 /* Pods_AngelHack_19.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E03F2D98EC563D3E80D4DB9 /* Pods_AngelHack_19.framework */; };
 /* End PBXBuildFile section */
 
@@ -20,11 +22,13 @@
 		4A400671394D538B9B126E30 /* Pods-AngelHack-19.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AngelHack-19.release.xcconfig"; path = "Target Support Files/Pods-AngelHack-19/Pods-AngelHack-19.release.xcconfig"; sourceTree = "<group>"; };
 		78479E81227D5D3F004C4D1F /* AngelHack-19.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AngelHack-19.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78479E84227D5D3F004C4D1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		78479E86227D5D3F004C4D1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		78479E89227D5D3F004C4D1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		78479E8B227D5D40004C4D1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78479E8E227D5D40004C4D1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78479E90227D5D40004C4D1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78479E96227D73F7004C4D1F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		78479E98227D756E004C4D1F /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		78479E9A227D7C94004C4D1F /* LandingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingVC.swift; sourceTree = "<group>"; };
 		9E03F2D98EC563D3E80D4DB9 /* Pods_AngelHack_19.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AngelHack_19.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -70,11 +74,13 @@
 			isa = PBXGroup;
 			children = (
 				78479E84227D5D3F004C4D1F /* AppDelegate.swift */,
-				78479E86227D5D3F004C4D1F /* ViewController.swift */,
 				78479E88227D5D3F004C4D1F /* Main.storyboard */,
+				78479E9A227D7C94004C4D1F /* LandingVC.swift */,
+				78479E98227D756E004C4D1F /* LoginVC.swift */,
 				78479E8B227D5D40004C4D1F /* Assets.xcassets */,
 				78479E8D227D5D40004C4D1F /* LaunchScreen.storyboard */,
 				78479E90227D5D40004C4D1F /* Info.plist */,
+				78479E96227D73F7004C4D1F /* GoogleService-Info.plist */,
 			);
 			path = "AngelHack-19";
 			sourceTree = "<group>";
@@ -85,7 +91,6 @@
 				42B436271475C955D8BF5533 /* Pods-AngelHack-19.debug.xcconfig */,
 				4A400671394D538B9B126E30 /* Pods-AngelHack-19.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -150,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				78479E8F227D5D40004C4D1F /* LaunchScreen.storyboard in Resources */,
+				78479E97227D73F7004C4D1F /* GoogleService-Info.plist in Resources */,
 				78479E8C227D5D40004C4D1F /* Assets.xcassets in Resources */,
 				78479E8A227D5D3F004C4D1F /* Main.storyboard in Resources */,
 			);
@@ -221,7 +227,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78479E87227D5D3F004C4D1F /* ViewController.swift in Sources */,
+				78479E99227D756E004C4D1F /* LoginVC.swift in Sources */,
+				78479E9B227D7C94004C4D1F /* LandingVC.swift in Sources */,
 				78479E85227D5D3F004C4D1F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
